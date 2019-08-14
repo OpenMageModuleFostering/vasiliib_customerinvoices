@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VasiliiB_CustomerInvoices>
+            <version>1.0.0</version>
+        </VasiliiB_CustomerInvoices>
+    </modules>
+
+    <frontend>
+        <routers>
+            <vasiliib>
+                <use>standard</use>
+                <args>
+                    <module>VasiliiB_CustomerInvoices</module>
+                    <frontName>vasiliib</frontName>
+                </args>
+            </vasiliib>
+        </routers>
+
+        <layout>
+            <updates>
+                <vasiliib>
+                    <file>customerinvoices.xml</file>
+                </vasiliib>
+            </updates>
+        </layout>
+    </frontend>
+
+    <global>
+        <blocks>
+            <invoices>
+                <class>VasiliiB_CustomerInvoices_Block</class>
+            </invoices>
+        </blocks>
+    </global>
+</config>

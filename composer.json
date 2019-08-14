@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/VasiliiB_CustomerInvoices",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "Allow customers to view list of invoices and download Invoice PDF files.",
+    "authors": [
+    {
+        "name": "Vasilii",
+        "email": "burlacu.vasilii@yandex.ru"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

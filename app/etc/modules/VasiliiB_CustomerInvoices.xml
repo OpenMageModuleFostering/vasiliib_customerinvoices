@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VasiliiB_CustomerInvoices>
+            <active>true</active>
+            <codePool>local</codePool>
+        </VasiliiB_CustomerInvoices>
+    </modules>
+</config>
