@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/VasiliiB_CustomerInvoices",
+    "name": "openmage-module-fostering\/vasiliib_customerinvoices",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Allow customers to view list of invoices and download Invoice PDF files.",
     "authors": [
